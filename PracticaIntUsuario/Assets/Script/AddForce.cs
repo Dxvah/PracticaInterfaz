@@ -8,7 +8,9 @@ public class AddForce : MonoBehaviour
     Vector3 fuerza;
 
     Rigidbody body;
+
     
+
     void Start()
     {
         body = GetComponent<Rigidbody>();
@@ -29,5 +31,10 @@ public class AddForce : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        
+
+    }
 }
 
