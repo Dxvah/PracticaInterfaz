@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 34f85a5f282641f4fa2c85372d7c2a76
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bratarini FREE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 774bfa8023d7f9043a8f27d079a94d4a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
