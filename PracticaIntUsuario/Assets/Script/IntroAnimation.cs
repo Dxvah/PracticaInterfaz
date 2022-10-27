@@ -14,7 +14,7 @@ public class IntroAnimation : MonoBehaviour
     void Start()
     {
         //Oculto mi logo de manera inmediata, en cero segundos
-        LeanTween.moveLocalY(logo, -331f, 0.0f);
+        LeanTween.moveLocalY(logo, -561f, 0.0f);
         //Hago aparecer el logo desde su posición inicial hacia la posicion 52 del eje Y
         LeanTween.moveLocalY(logo, 52f, 7f).setEaseInOutQuint().setOnComplete(Latido);
         //LeanTween.moveLocal(logo, new Vecto3(xf, yf, zf), tiempo f) - para moverlo en diversos ejes al mismo tiempo 
@@ -36,7 +36,7 @@ public class IntroAnimation : MonoBehaviour
 
         void Desactivar()
         {
-            gameObject.SetActive(false);
+            interfaz.SetActive(true);
             //Activar el menu principal
 
         }
