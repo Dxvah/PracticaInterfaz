@@ -18,8 +18,6 @@ public class OpcionIdioma : MonoBehaviour
             idiomaActual++;
             searcher = LocalizationSettings.AvailableLocales.Locales[idiomaActual];
 
-
-
         }
 
 
@@ -65,6 +63,7 @@ public class OpcionIdioma : MonoBehaviour
            
 
         }
+
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[idiomaActual];
 
     }
